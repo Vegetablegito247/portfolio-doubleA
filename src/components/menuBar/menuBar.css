@@ -1,0 +1,124 @@
+.menu-bar {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 10;
+    transition: .7s;
+}
+
+.menu-bar.active {
+    top: 0;
+}
+
+.left-bar, .left-abt-txt, .right-social-guide {
+    display: flex;
+    align-items: center;
+}
+
+.left-bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 40, 40);
+    color: var(--txtColor);
+    padding: 40px;
+    /* position: relative;
+    bottom: -100vh;
+    left: 0;
+    transition: .7s;
+    transition-delay: 2s; */
+}
+
+.left-abt-txt {
+    width: 100%;
+    height: 100%;
+}
+
+.left-abt-txt p {
+    font-size: 30px;
+}
+
+.left-abt-txt p span {
+    border-right: 2px solid var(--accentColor);
+    font-size: 20px;
+    animation-name: type;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes type {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    } 
+}
+
+.right-bar {
+    width: 100%;
+    height: 100%;
+    background-color: var(--intermediateColor);
+    color: var(--txtColor);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* top: -100vh;
+    left: 0;
+    transition: .7s;
+    transition-delay: 2s; */
+}
+
+.close-bar {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid var(--accentColor);
+    border-radius: 8px;
+    color: var(--txtColor);
+    margin-left: auto;
+}
+
+.right-bar-cont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.right-bar-list {
+    text-decoration: none;
+    color: var(--txtColor);
+}
+
+.right-bar-list.active {
+    color: var(--accentColor);
+}
+
+.right-bar-list span {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--txtBlackOps);
+    letter-spacing: 2px;
+}
+
+.right-social-guide {
+    width: 100%;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.right-social-guide .social {
+    border: 2px solid rgba(255, 255, 255, 0.47);
+    background: radial-gradient(276.56% 104.32% at 1.34% 8.25%, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.07) 100%);
+}

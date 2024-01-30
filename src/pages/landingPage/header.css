@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/headImg/landing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: zoomIn 10s infinite alternate;
+}
+
+@keyframes zoomIn {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 120%;
+    }
+}
+
+.head-cont, .head-btn, .btn-ctct, .btn-cv {
+    display: flex;
+}
+
+.head-cont {
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+    background-color: rgba(0, 0, 0, 0.488);
+    color: var(--txtColor);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head-intro h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: var(--txtBlackOps);
+    letter-spacing: 2px;
+}
+
+.head-intro p {
+    width: 700px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.head-btn {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 35px;
+}
+
+.btn-ctct, .btn-cv {
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border-radius: 30px;
+}
+
+.btn-ctct span, .btn-cv span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.ct-icon {
+    font-size: 20px;
+}
+
+.btn-ctct {
+    background-color: var(--txtColor);
+    color: #000000;
+}
+
+.btn-cv {
+    background-color: var(--accentColor);
+    color: var(--txtColor);
+}
