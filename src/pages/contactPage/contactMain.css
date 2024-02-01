@@ -41,3 +41,47 @@
     background: radial-gradient(276.56% 104.32% at 1.34% 8.25%, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.07) 100%);
     backdrop-filter: blur(6px);
 }
+
+@media (max-width: 768px) {
+    .contact-main {
+        padding: 3rem;
+    }
+
+    .contact-main-title p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 625px) {
+    .contact-main {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .contact-main {
+        padding: 3rem 30px;
+    }
+}
+
+@media (max-width: 428px) {
+    .contact-main {
+        padding: 3rem 15px;
+    }
+
+    .contact-main-title h3 {
+        font-size: 20px;
+    }
+
+    .contact-main-title p {
+        font-size: 16px;
+    }
+
+    .cont-info span {
+        font-size: 18px;
+    }
+
+    .cont-icon {
+        font-size: 23px;
+    }
+}

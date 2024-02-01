@@ -11,7 +11,7 @@ function Header() {
                 <div className="head-txt">
                     <div className="head-intro">
                         <h1>Yo - I am Al-min.</h1>
-                        <h1>A Enthusiastic and Passionate <br /> Frontend Developer.</h1>
+                        <h1>A Enthusiastic and Passionate { window.innerWidth >= 625 ? <br /> : ' ' } Frontend Developer.</h1>
                         <p>
                             I specialize in crafting unique digital experiences for brands in the modern web. Proficient in AI chat box creation, I blend creativity and technology to enhance user interactions.
                         </p>

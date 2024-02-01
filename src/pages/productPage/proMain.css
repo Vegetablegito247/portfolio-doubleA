@@ -4,15 +4,43 @@
     color: var(--txtColor);
 }
 
-.project-main-title, .contact-main-title {
+.project-main-title, .contact-main-title, .abt-main-title {
     width: 100%;
     margin-bottom: 2rem;
 }
 
-.project-main-title h3, .contact-main-title h3 {
+.project-main-title h3, .contact-main-title h3, .abt-main-title h3 {
     font-size: 35px;
 }
 
 .project-main-title p {
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .projects-main {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 625px) {
+    .projects-main {
+        padding: 3rem 2rem;
+    }
+
+    .project-main-title h3, .contact-main-title h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .projects-main {
+        padding: 3rem 30px;
+    }
+}
+
+@media (max-width: 428px) {
+    .projects-main {
+        padding: 3rem 15px;
+    }
 }

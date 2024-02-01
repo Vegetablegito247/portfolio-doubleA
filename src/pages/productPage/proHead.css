@@ -12,17 +12,22 @@
     0% {
         background-size: 100%;
     }
+
     100% {
         background-size: 120%;
     }
 }
 
-.pro-head-cont, .con-head-cont {
+.pro-head-cont,
+.con-head-cont,
+.abt-head-cont {
     display: flex;
     align-items: center;
 }
 
-.pro-head-cont, .con-head-cont {
+.pro-head-cont,
+.con-head-cont,
+.abt-head-cont {
     width: 100%;
     height: 100%;
     padding: 0 4rem;
@@ -32,7 +37,9 @@
     justify-content: center;
 }
 
-.pro-info-txt h1, .con-info-txt h1 {
+.pro-info-txt h1,
+.con-info-txt h1,
+.abt-info-txt h1 {
     font-size: 90px;
     font-weight: 700;
     line-height: 45px;
@@ -40,7 +47,9 @@
     letter-spacing: 2px;
 }
 
-.pro-head-icon, .con-head-icon {
+.pro-head-icon,
+.con-head-icon,
+.abt-head-icon {
     position: absolute;
     bottom: 1rem;
     right: 4rem;
@@ -48,4 +57,45 @@
 
 .game-pad {
     font-size: 80px;
+}
+
+@media (max-width: 768px) {
+    .pro-head-cont,
+    .con-head-cont,
+    .abt-head-cont {
+        padding: 0 3rem;
+    }
+
+    .pro-head-icon,
+    .con-head-icon,
+    .abt-head-icon {
+        right: 3rem;
+    }
+}
+
+@media (max-width: 625px) {
+    .pro-info-txt h1,
+    .con-info-txt h1,
+    .abt-info-txt h1 {
+        font-size: 65px !important;
+        line-height: normal !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .pro-head,
+    .con-head,
+    .abt-head {
+        animation: none;
+    }
+
+    .pro-info-txt h1,
+    .con-info-txt h1,
+    .abt-info-txt h1 {
+        font-size: 50px;
+    }
+
+    .game-pad {
+        font-size: 70px;
+    }
 }

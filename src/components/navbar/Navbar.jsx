@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaGamepad } from "react-icons/fa";
 import './navbar.css';
-import MenuBar from '../menuBar/MenuBar';
+import LeftBar from '../menuBar/LeftBar';
+import RightBar from '../menuBar/RightBar';
 
 function Navbar() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -24,7 +25,8 @@ function Navbar() {
                     <GiHamburgerMenu />
                 </div>
             </div>
-            <MenuBar handleMenu={handleMenu} openMenu={openMenu} />
+            <LeftBar handleMenu={handleMenu} openMenu={openMenu} />
+            <RightBar handleMenu={handleMenu} openMenu={openMenu} />
         </nav>
     )
 }

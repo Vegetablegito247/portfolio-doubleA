@@ -191,3 +191,130 @@ main {
     margin-top: 4rem;
     column-gap: 15px;
 }
+
+@media (max-width: 768px) {
+    .mainHead {
+        padding: 0 3rem;
+    }
+
+    .projects {
+        padding: 5rem 3rem;
+    }
+
+    .mainTxt p {
+        width: 100%;
+    }
+
+    .project-id h1 {
+        font-size: 60px;
+    }
+
+    .project-frame {
+        height: 60%;
+        border-radius: 20px;
+    }
+
+    .project-img {
+        padding: 2rem;
+    }
+
+    .project-details {
+        flex-direction: column;
+    }
+
+    .pro-detail {
+        width: 100%;
+    }
+
+    .pro-title {
+        width: 100%;
+    }
+
+    .pro-title h3 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 625px) {
+    .mainTxt h3 {
+        font-size: 28px;
+    }
+
+    .project-head h1,
+    .go-to-project h1 {
+        font-size: 30px;
+    }
+
+    .pro-icon {
+        font-size: 35px;
+    }
+
+    .project-img {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .mainHead {
+        padding: 0 30px;
+    }
+
+    .project-id h1 {
+        font-size: 40px;
+    }
+
+    .projects {
+        padding: 4rem 30px;
+    }
+
+    .project-head {
+        margin-bottom: 20px;
+    }
+
+    .project-frame {
+        border-radius: 10px;
+    }
+
+    .pro-title h3 {
+        font-size: 30px;
+    }
+
+    .pro-txt p {
+        font-size: 14px;
+    }
+
+    .pro-links {
+        padding-top: 2.5rem;
+    }
+
+    .view-site {
+        height: 40px;
+    }
+}
+
+@media (max-width: 428px) {
+    .mainHead {
+        padding: 0 15px;
+    }
+
+    .mainTxt h3 {
+        font-size: 20px;
+    }
+
+    .project-head h1,
+    .go-to-project h1 {
+        font-size: 20px;
+    }
+
+    .pro-icon {
+        font-size: 25px;
+    }
+
+    .projects {
+        padding: 4rem 15px;
+    }
+
+    .project-img {
+        padding: 15px;
+    }
+}

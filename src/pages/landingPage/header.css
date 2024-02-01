@@ -79,3 +79,44 @@ header {
     background-color: var(--accentColor);
     color: var(--txtColor);
 }
+
+@media (max-width: 768px) {
+    .head-cont {
+        padding: 0 3rem;
+    }
+
+    .head-intro p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 625px) {
+    .head-intro {
+        width: 100%;
+    }
+    
+    .head-intro h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        animation: none;
+    }
+    
+    .head-cont {
+        padding: 0 30px;
+        line-height: 20px;
+    }
+
+    .game-pad {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 428px) {
+    .head-cont {
+        padding: 0 15px;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './menuBar.css';
 import { NavLink } from 'react-router-dom';
 import { MdClose } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp, FaGamepad } from 'react-icons/fa';

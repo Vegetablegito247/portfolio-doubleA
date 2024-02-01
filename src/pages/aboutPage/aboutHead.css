@@ -1,7 +1,7 @@
-.con-head {
+.abt-head {
     width: 100%;
     height: 100vh;
-    background: url(../../assets/headImg/contact.png);
+    background: url(../../assets/headImg/about3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,11 +18,11 @@
 }
 
 @media (max-width: 575px) {
-    .con-head {
+    .abt-head {
         animation: none;
     }
 
-    .con-info-txt h1 {
+    .abt-info-txt h1 {
         font-size: 65px !important;
         line-height: 55px !important;
     }

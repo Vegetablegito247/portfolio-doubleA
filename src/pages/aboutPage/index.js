@@ -1,10 +1,10 @@
 import React from 'react';
-import ContactHead from './ContactHead';
-import ContactMain from './ContactMain';
+import AboutHead from './AboutHead';
 import { animateScroll as scroll } from 'react-scroll';
 import { useEffect } from 'react';
+import AboutMain from './AboutMain';
 
-function ContactPage() {
+function AboutPage() {
   // scroll to top of page after each navigation
   useEffect(() => {
     scroll.scrollToTop({
@@ -12,13 +12,13 @@ function ContactPage() {
       smooth: 'easeInOutQuint',
     });
   }, []);
-  
+
   return (
     <>
-      <ContactHead />
-      <ContactMain />
+      <AboutHead />
+      <AboutMain />
     </>
   )
 }
 
-export default ContactPage
+export default AboutPage

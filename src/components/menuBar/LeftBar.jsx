@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import './menuBar.css';
 
 function LeftBar({ openMenu }) {
   const pCont = "My name is Al-min Ajadi, I see you've visited my forte, well this is the beginning of your adventure. What do you have for me ?, let me take you into the realm of impossibilities, HAHA.";
