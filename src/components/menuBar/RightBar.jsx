@@ -1,8 +1,8 @@
 import React from 'react';
 import './menuBar.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { MdClose } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp, FaGamepad } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { SiGmail } from "react-icons/si";
 
 function RightBar({ handleMenu, openMenu }) {
@@ -26,21 +26,21 @@ function RightBar({ handleMenu, openMenu }) {
                 </NavLink>
             </div>
             <div className="right-social-guide">
-                <div className="social">
+                <Link to='https://linkedin.com/in/al-min-ajadi-10964a21a' target='_blank' rel='noopener noreferrer' className="social">
                     <FaLinkedin />
-                </div>
-                <div className="social">
+                </Link>
+                <Link to='https://github.com/Vegetablegito247' target='_blank' rel='noopener noreferrer' className="social">
                     <FaGithub />
-                </div>
-                <div className="social">
+                </Link>
+                <Link to='https://w.app/DoubleA' target='_blank' rel='noopener noreferrer' className="social">
                     <FaWhatsapp />
-                </div>
-                <div className="social">
+                </Link>
+                <Link to='mailto:akalmin247@gmail.com' target='_blank' rel='noopener noreferrer' className="social">
                     <SiGmail />
-                </div>
-                <div className="social">
+                </Link>
+                <Link to='https://twitter.com/ajadiola247' target='_blank' rel='noopener noreferrer' className="social">
                     <FaTwitter />
-                </div>
+                </Link>
             </div>
         </div>
     )

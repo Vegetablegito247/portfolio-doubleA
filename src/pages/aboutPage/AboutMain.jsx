@@ -84,13 +84,16 @@ function AboutMain() {
             </div>
             <div className="abt-abt-me">
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam distinctio, aut temporibus dolorem placeat obcaecati corrupti esse doloremque nisi, laboriosam repudiandae magni nostrum sint aliquid tempore maxime soluta, velit iste veritatis quibusdam delectus vel animi beatae incidunt! Aperiam placeat animi, assumenda incidunt provident hic laborum quia culpa unde natus officia.
+                    Hello, I'm <b>Al-min Ajadi</b>, a versatile frontend developer known for creating user-friendly interfaces. Proficient in HTML, CSS, JavaScript, and React, I specialize in delivering seamless web applications. My journey in the tech world began with a computer science diploma from LOMKET Computer Institutes, and I furthered my studies in full-stack development at LASOP. Currently, I'm pursuing computer science at the University of Regina, Canada.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam distinctio, aut temporibus dolorem placeat obcaecati corrupti esse doloremque nisi, laboriosam repudiandae magni nostrum sint aliquid tempore maxime soluta, velit iste veritatis quibusdam delectus vel animi beatae incidunt! Aperiam placeat animi, assumenda incidunt provident hic laborum quia culpa unde natus officia.
+                    While my initial plan was in medicine, exposure to programming classes shifted my perspective. From React to backend technologies, my journey has been filled with exciting possibilities, from mobile development to designing fintech apps and games.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam distinctio, aut temporibus dolorem placeat obcaecati corrupti esse doloremque nisi, laboriosam repudiandae magni nostrum sint aliquid tempore maxime soluta, velit iste veritatis quibusdam delectus vel animi beatae incidunt! Aperiam placeat animi, assumenda incidunt provident hic laborum quia culpa unde natus officia.
+                    Studying full-stack at LASOP was interactive and enjoyable, fostering my passion for learning and problem-solving. Adaptable to evolving scopes, my commitment to continuous learning and innovation positions me to make cutting-edge contributions in dynamic environments.
+                </p>
+                <p>
+                    Thank you for visiting my portfolio. I hope you enjoy exploring my projects, witnessing the dedication and attention to detail in each. For any questions or potential collaboration, please don't hesitate to reach out. I look forward to connecting with you.
                 </p>
             </div>
             <div className="abt-stacks">
@@ -113,7 +116,7 @@ function AboutMain() {
                     <span>Best regards,</span>
                 </div>
                 <div className="abt-name">
-                    <span>Al-min Ajadi <b>( Double A ).</b></span>
+                    <span>Al-min Ajadi <b>( Double A ) .</b></span>
                 </div>
             </div>
         </div>

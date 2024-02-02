@@ -53,6 +53,8 @@ footer {
 
 .social {
     justify-content: center;
+    text-decoration: none;
+    color: var(--txtColor);
     width: 40px;
     height: 40px;
     border-radius: 50%;

@@ -6,8 +6,19 @@ import Footer from "./components/footer/Footer";
 import ProjectPage from "./pages/productPage";
 import ContactPage from "./pages/contactPage";
 import AboutPage from "./pages/aboutPage";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="App">
       <Router>

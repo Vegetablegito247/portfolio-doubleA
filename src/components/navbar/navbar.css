@@ -23,6 +23,7 @@ nav {
 
 .nav-logo {
     color: var(--txtColor);
+    text-decoration: none;
     border-radius: 20px;
     height: 50px;
     padding: 0 30px;

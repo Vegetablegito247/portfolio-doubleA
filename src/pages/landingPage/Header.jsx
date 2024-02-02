@@ -3,6 +3,7 @@ import './header.css';
 import { IoCloudDownload } from "react-icons/io5";
 import { FaHeadphonesSimple } from "react-icons/fa6";
 import { FaGamepad } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -17,14 +18,14 @@ function Header() {
                         </p>
                     </div>
                     <div className="head-btn">
-                        <div className="btn-ctct">
+                        <Link to='tel:+13063515173' target='_blank' rel='noopener noreferrer' className="btn-ctct">
                             <span>Contact Me</span>
                             <FaHeadphonesSimple className='ct-icon' />
-                        </div>
-                        <div className="btn-cv">
+                        </Link>
+                        <Link to='https://docs.google.com/file/d/1Y3pGP6PN7HSXTdS_TTpaXH4Y30uXWVaw/edit?usp=docslist_api&filetype=msword' target='_blank' rel='noopener noreferrer' className="btn-cv">
                             <span>Get My CV</span>
                             <IoCloudDownload className='ct-icon' />
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="con-head-icon">

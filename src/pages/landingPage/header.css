@@ -59,6 +59,7 @@ header {
     justify-content: center;
     column-gap: 10px;
     border-radius: 30px;
+    text-decoration: none;
 }
 
 .btn-ctct span, .btn-cv span {

@@ -16,7 +16,7 @@ function LeftBar({ openMenu }) {
         if (index > pCont.length) {
           clearInterval(interval);
         }
-      }, 100);
+      }, 80);
 
       return () => {
         clearInterval(interval);
