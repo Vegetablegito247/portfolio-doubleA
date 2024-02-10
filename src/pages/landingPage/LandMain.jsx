@@ -30,7 +30,7 @@ function LandMain() {
 
                 <div className="project-body">
                     {
-                        projectBuild.map((projects, ind) => (
+                        projectBuild.slice(0, 4).map((projects, ind) => (
                             <div key={ind} data-aos="zoom-in-right" className="project-main">
                                 <div className="project-list">
                                     <div className="project-id">
