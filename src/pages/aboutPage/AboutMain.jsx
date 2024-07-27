@@ -5,6 +5,8 @@ import css from '../../assets/abtIcon/css-3.png';
 import javaScript from '../../assets/abtIcon/java-script.png';
 import bootstrap from '../../assets/abtIcon/bootstrap.png';
 import react from '../../assets/abtIcon/physics.png';
+import typeScript from '../../assets/abtIcon/typescript.png';
+import next from '../../assets/abtIcon/nextjs.svg';
 import sass from '../../assets/abtIcon/sass.png';
 import scss from '../../assets/abtIcon/file.png';
 import python from '../../assets/abtIcon/python.png';
@@ -52,26 +54,36 @@ function AboutMain() {
         },
         {
             id: 8,
+            img: typeScript,
+            title: 'Typescript'
+        },
+        {
+            id: 9,
+            img: next,
+            title: 'NextJS'
+        },
+        {
+            id: 10,
             img: node,
             title: 'Node-Js'
         },
         {
-            id: 9,
+            id: 11,
             img: python,
             title: 'Python'
         },
         {
-            id: 10,
+            id: 12,
             img: django,
             title: 'Django'
         },
         {
-            id: 11,
+            id: 13,
             img: mongoDB,
             title: 'MongoDB'
         },
         {
-            id: 12,
+            id: 14,
             img: mySQL,
             title: 'MySQL'
         }
@@ -84,7 +96,7 @@ function AboutMain() {
             </div>
             <div className="abt-abt-me">
                 <p>
-                    Hello, I'm <b>Al-min Ajadi</b>, a versatile frontend developer known for creating user-friendly interfaces. Proficient in HTML, CSS, JavaScript, and React, I specialize in delivering seamless web applications. My journey in the tech world began with a computer science diploma from LOMKET Computer Institutes, and I furthered my studies in full-stack development at LASOP. Currently, I'm pursuing computer science at the University of Regina, Canada.
+                    Hello, I'm <b>Al-min Ajadi</b>, a versatile Software developer known for creating user-friendly interfaces. Proficient in HTML, CSS, JavaScript, and React, I specialize in delivering seamless web applications. My journey in the tech world began with a computer science diploma from LOMKET Computer Institutes, and I furthered my studies in full-stack development at LASOP. Currently, I'm pursuing computer science at the University of Regina, Canada.
                 </p>
                 <p>
                     While my initial plan was in medicine, exposure to programming classes shifted my perspective. From React to backend technologies, my journey has been filled with exciting possibilities, from mobile development to designing fintech apps and games.
