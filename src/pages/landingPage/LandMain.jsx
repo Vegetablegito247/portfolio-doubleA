@@ -34,7 +34,7 @@ function LandMain() {
                             <div key={ind} data-aos="zoom-in-right" className="project-main">
                                 <div className="project-list">
                                     <div className="project-id">
-                                        <h1>{projects.id}</h1>
+                                        <h1>{ind < 10 ? `0${ind + 1}` : ind}</h1>
                                     </div>
                                     <div className="project-frame">
                                         <div className="project-img">

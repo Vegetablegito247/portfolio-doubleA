@@ -20,7 +20,7 @@ function ProMain() {
             <div key={ind} data-aos="zoom-in-right" className="project-main">
               <div className="project-list">
                 <div className="project-id">
-                  <h1>{projects.id}</h1>
+                  <h1>{ind < 9 ? `0${ind + 1}` : ind + 1}</h1>
                 </div>
                 <div className="project-frame">
                   <div className="project-img">
